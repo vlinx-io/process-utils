@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 import org.junit.Test;
-import vlinx.processutils.ProcessUtils;
-import vlinx.processutils.exception.ProcessException;
+import io.vlinx.processutils.ProcessUtils;
+import io.vlinx.processutils.exception.ProcessException;
 
 import java.io.IOException;
 

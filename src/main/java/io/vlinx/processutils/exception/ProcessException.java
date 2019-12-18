@@ -1,4 +1,4 @@
-package vlinx.processutils.exception;
+package io.vlinx.processutils.exception;
 
 public class ProcessException extends Exception {
 

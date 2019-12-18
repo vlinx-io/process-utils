@@ -1,7 +1,7 @@
-package vlinx.processutils;
+package io.vlinx.processutils;
 
 import org.apache.commons.exec.CommandLine;
-import vlinx.processutils.exception.ProcessException;
+import io.vlinx.processutils.exception.ProcessException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

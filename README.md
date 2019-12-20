@@ -1,4 +1,4 @@
-# VLINX ProcessUtils
+# VLINX Process Utils
 
 Process Utilities for Java
 

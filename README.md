@@ -81,9 +81,7 @@ try{
 
 ```
 
-
-
-## Usage
+## Maven
 
 ```xml
 <dependency>
@@ -92,8 +90,6 @@ try{
   <version>1.0.0</version>
 </dependency>
 ```
-
-
 
 ## Download
 

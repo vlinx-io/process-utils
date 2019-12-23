@@ -36,11 +36,11 @@ public class ProcessUtils {
         run(command, showOutput, null);
     }
 
-    public static void run(String command, boolean showOutput, StringBuilder outputBuilder) throws InterruptedException, ProcessException, IOException {
+    public static void run(String command, boolean showOutput, Appendable outputBuilder) throws InterruptedException, ProcessException, IOException {
         run(parseCommand(command), showOutput, outputBuilder);
     }
 
-    public static void run(String[] command, final boolean showOutput, final StringBuilder outputBuilder) throws InterruptedException, ProcessException, IOException {
+    public static void run(String[] command, final boolean showOutput, final Appendable outputBuilder) throws InterruptedException, ProcessException, IOException {
         Process process = Runtime.getRuntime().exec(command);
 
         final BufferedReader stdout = new BufferedReader(new InputStreamReader(process.getInputStream()));

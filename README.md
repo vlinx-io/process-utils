@@ -87,7 +87,7 @@ try{
 <dependency>
   <groupId>io.vlinx</groupId>
   <artifactId>process-utils</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 

@@ -57,7 +57,7 @@ public class ProcessUtils {
                             System.out.println(line);
                         }
                         if (outputBuilder != null) {
-                            outputBuilder.append(line + "\n");
+                            outputBuilder.append(line + System.lineSeparator());
                         }
                     }
                 } catch (IOException e) {
@@ -78,7 +78,7 @@ public class ProcessUtils {
                         }
 
                         if (outputBuilder != null) {
-                            outputBuilder.append(line);
+                            outputBuilder.append(line + System.lineSeparator());
                         }
                     }
                 } catch (IOException e) {

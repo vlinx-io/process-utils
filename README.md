@@ -90,7 +90,3 @@ try{
   <version>1.0.1</version>
 </dependency>
 ```
-
-## Download
-
-[process-utils-1.0.zip](https://github.com/vlinx-io/process-utils/releases/download/1.0.0/process-utils-1.0.zip)
